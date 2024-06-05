@@ -41,4 +41,48 @@
     return [UIColor colorWithRed:red/255 green:green/255 blue:blue/255 alpha:alpha];
 }
 
+
+
+#pragma mark - 渐变色相关接口
+/// 获取渐变色涂层，可以指定方向，圆角默认0
++ (CAGradientLayer *)getGradientLayer:(NSArray *)colors type:(UIColorDirGradientType)type frame:(CGRect)frame {
+    return [self getGradientLayer:colors type:type frame:frame cornerRadius:0];
+}
+
+/// 获取渐变色涂层，可以指定方向和设置圆角
++ (CAGradientLayer *)getGradientLayer:(NSArray *)colors type:(UIColorDirGradientType)type frame:(CGRect)frame cornerRadius:(CGFloat)cornerRadius {
+    CGPoint startPoint = CGPointZero;
+    CGPoint endPoint = CGPointZero;
+    if (type == UIColorDirGradientTypeHorizontal) {
+        startPoint = CGPointMake(0, 0);
+        endPoint = CGPointMake(1, 0);
+    } else if(type == UIColorDirGradientTypeVertical) {
+        startPoint = CGPointMake(0, 0);
+        endPoint = CGPointMake(0, 1);
+    }else if (type == UIColorDirGradientTypeTopLeftToBottomRight){
+        startPoint = CGPointMake(0, 0);
+        endPoint = CGPointMake(1, 1);
+    }else if (type == UIColorDirGradientTypeTopRightToBottomLeft){
+        startPoint = CGPointMake(1, 0);
+        endPoint = CGPointMake(0, 1);
+    }
+    
+    return [self getGradientLayer:colors startPoint:startPoint endPoint:endPoint frame:frame cornerRadius:cornerRadius];
+}
+
+
+/// 获取渐变色涂层，通过坐标指定方向
++ (CAGradientLayer *)getGradientLayer:(NSArray *)colors startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint frame:(CGRect)frame cornerRadius:(CGFloat)cornerRadius {
+    
+    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+    gradientLayer.colors = colors;
+    gradientLayer.startPoint = startPoint;// 渐变色起始点
+    gradientLayer.endPoint = endPoint;// 渐变色结束点
+    gradientLayer.cornerRadius = cornerRadius; // 设置圆角
+    gradientLayer.frame = frame;
+    
+    
+    return gradientLayer;
+}
+
 @end
