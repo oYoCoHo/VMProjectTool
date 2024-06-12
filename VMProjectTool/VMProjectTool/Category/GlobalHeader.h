@@ -105,4 +105,13 @@ static inline UIFont *FontDINBold(CGFloat size) {
     return [UIFont fontWithName:DINBoldFont size:size];
 }
 
+#define YXRepeatClickInMSECTime(time) \
+static BOOL shouldPrevent; \
+if (shouldPrevent) return; \
+shouldPrevent = YES; \
+dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)((time) * NSEC_PER_MSEC)), dispatch_get_main_queue(), ^{ \
+shouldPrevent = NO; \
+}); \
+
+
 #endif /* GlobalHeader_h */
