@@ -34,6 +34,8 @@
 		130210912C1F0D0A007C6E31 /* RACCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 130210902C1F0D0A007C6E31 /* RACCellModel.m */; };
 		130210942C1F0D1D007C6E31 /* RACCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 130210932C1F0D1D007C6E31 /* RACCellView.m */; };
 		130211C32C1F3A83007C6E31 /* DashedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 130211C22C1F3A83007C6E31 /* DashedView.m */; };
+		130211D02C1F3DB2007C6E31 /* D-DIN-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 130211CE2C1F3DB2007C6E31 /* D-DIN-Bold.ttf */; };
+		130211D12C1F3DB2007C6E31 /* DIN-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 130211CF2C1F3DB2007C6E31 /* DIN-Medium.otf */; };
 		77D712F0473E7D1AF79F9765 /* Pods_VMProjectTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F31B33ACFE7169DFB46533 /* Pods_VMProjectTool.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +110,8 @@
 		130210932C1F0D1D007C6E31 /* RACCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCellView.m; sourceTree = "<group>"; };
 		130211C12C1F3A83007C6E31 /* DashedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashedView.h; sourceTree = "<group>"; };
 		130211C22C1F3A83007C6E31 /* DashedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashedView.m; sourceTree = "<group>"; };
+		130211CE2C1F3DB2007C6E31 /* D-DIN-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DIN-Bold.ttf"; sourceTree = "<group>"; };
+		130211CF2C1F3DB2007C6E31 /* DIN-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-Medium.otf"; sourceTree = "<group>"; };
 		66BB92EC105921F00D0C8013 /* Pods-VMProjectTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMProjectTool.release.xcconfig"; path = "Target Support Files/Pods-VMProjectTool/Pods-VMProjectTool.release.xcconfig"; sourceTree = "<group>"; };
 		9CB46D4EA96F33140DA3ED9D /* Pods-VMProjectTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMProjectTool.debug.xcconfig"; path = "Target Support Files/Pods-VMProjectTool/Pods-VMProjectTool.debug.xcconfig"; sourceTree = "<group>"; };
 		F2F31B33ACFE7169DFB46533 /* Pods_VMProjectTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VMProjectTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +168,7 @@
 		130210212C0DFDC7007C6E31 /* VMProjectTool */ = {
 			isa = PBXGroup;
 			children = (
+				130211CD2C1F3D86007C6E31 /* 字体 */,
 				130211C02C1F3A72007C6E31 /* 虚线 */,
 				1302108B2C1EECEA007C6E31 /* RAC事件 */,
 				130210842C189D76007C6E31 /* vip昵称 */,
@@ -278,6 +283,15 @@
 				130211C22C1F3A83007C6E31 /* DashedView.m */,
 			);
 			path = "虚线";
+			sourceTree = "<group>";
+		};
+		130211CD2C1F3D86007C6E31 /* 字体 */ = {
+			isa = PBXGroup;
+			children = (
+				130211CE2C1F3DB2007C6E31 /* D-DIN-Bold.ttf */,
+				130211CF2C1F3DB2007C6E31 /* DIN-Medium.otf */,
+			);
+			path = "字体";
 			sourceTree = "<group>";
 		};
 		80137BA671B2086ED29B0317 /* Pods */ = {
@@ -402,8 +416,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130211D02C1F3DB2007C6E31 /* D-DIN-Bold.ttf in Resources */,
 				130210322C0DFDC8007C6E31 /* LaunchScreen.storyboard in Resources */,
 				1302102F2C0DFDC8007C6E31 /* Assets.xcassets in Resources */,
+				130211D12C1F3DB2007C6E31 /* DIN-Medium.otf in Resources */,
 				1302102D2C0DFDC7007C6E31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

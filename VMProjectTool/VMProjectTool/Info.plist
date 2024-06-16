@@ -21,5 +21,11 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>D-DIN-Bold.ttf</string>
+		<string>DIN-Medium.otf</string>
+		<string>Yuanti.ttf</string>
+	</array>
 </dict>
 </plist>
