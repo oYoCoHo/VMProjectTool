@@ -30,6 +30,11 @@
 		130210832C10A6BE007C6E31 /* ButtonLayoutDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 130210822C10A6BE007C6E31 /* ButtonLayoutDemo.m */; };
 		130210892C189DA7007C6E31 /* YXChatVipMemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 130210862C189DA7007C6E31 /* YXChatVipMemberModel.m */; };
 		1302108A2C189DA7007C6E31 /* YXVipNicknameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 130210882C189DA7007C6E31 /* YXVipNicknameView.m */; };
+		1302108E2C1EEE01007C6E31 /* RACEventMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1302108D2C1EEE01007C6E31 /* RACEventMediator.m */; };
+		130210912C1F0D0A007C6E31 /* RACCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 130210902C1F0D0A007C6E31 /* RACCellModel.m */; };
+		130210942C1F0D1D007C6E31 /* RACCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 130210932C1F0D1D007C6E31 /* RACCellView.m */; };
+		130211C32C1F3A83007C6E31 /* DashedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 130211C22C1F3A83007C6E31 /* DashedView.m */; };
+		77D712F0473E7D1AF79F9765 /* Pods_VMProjectTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F31B33ACFE7169DFB46533 /* Pods_VMProjectTool.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +100,17 @@
 		130210862C189DA7007C6E31 /* YXChatVipMemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXChatVipMemberModel.m; sourceTree = "<group>"; };
 		130210872C189DA7007C6E31 /* YXVipNicknameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXVipNicknameView.h; sourceTree = "<group>"; };
 		130210882C189DA7007C6E31 /* YXVipNicknameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXVipNicknameView.m; sourceTree = "<group>"; };
+		1302108C2C1EEE01007C6E31 /* RACEventMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACEventMediator.h; sourceTree = "<group>"; };
+		1302108D2C1EEE01007C6E31 /* RACEventMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACEventMediator.m; sourceTree = "<group>"; };
+		1302108F2C1F0D0A007C6E31 /* RACCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACCellModel.h; sourceTree = "<group>"; };
+		130210902C1F0D0A007C6E31 /* RACCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCellModel.m; sourceTree = "<group>"; };
+		130210922C1F0D1D007C6E31 /* RACCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACCellView.h; sourceTree = "<group>"; };
+		130210932C1F0D1D007C6E31 /* RACCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCellView.m; sourceTree = "<group>"; };
+		130211C12C1F3A83007C6E31 /* DashedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashedView.h; sourceTree = "<group>"; };
+		130211C22C1F3A83007C6E31 /* DashedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashedView.m; sourceTree = "<group>"; };
+		66BB92EC105921F00D0C8013 /* Pods-VMProjectTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMProjectTool.release.xcconfig"; path = "Target Support Files/Pods-VMProjectTool/Pods-VMProjectTool.release.xcconfig"; sourceTree = "<group>"; };
+		9CB46D4EA96F33140DA3ED9D /* Pods-VMProjectTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMProjectTool.debug.xcconfig"; path = "Target Support Files/Pods-VMProjectTool/Pods-VMProjectTool.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F31B33ACFE7169DFB46533 /* Pods_VMProjectTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VMProjectTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D712F0473E7D1AF79F9765 /* Pods_VMProjectTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +146,8 @@
 				1302103D2C0DFDC8007C6E31 /* VMProjectToolTests */,
 				130210472C0DFDC8007C6E31 /* VMProjectToolUITests */,
 				130210202C0DFDC7007C6E31 /* Products */,
+				80137BA671B2086ED29B0317 /* Pods */,
+				CB3E2860131503A444F708A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +164,8 @@
 		130210212C0DFDC7007C6E31 /* VMProjectTool */ = {
 			isa = PBXGroup;
 			children = (
+				130211C02C1F3A72007C6E31 /* 虚线 */,
+				1302108B2C1EECEA007C6E31 /* RAC事件 */,
 				130210842C189D76007C6E31 /* vip昵称 */,
 				130210802C10A676007C6E31 /* 按钮数据驱动布局 */,
 				1302107B2C10A3F2007C6E31 /* 枚举有效值检测 */,
@@ -237,6 +258,45 @@
 			path = "vip昵称";
 			sourceTree = "<group>";
 		};
+		1302108B2C1EECEA007C6E31 /* RAC事件 */ = {
+			isa = PBXGroup;
+			children = (
+				1302108C2C1EEE01007C6E31 /* RACEventMediator.h */,
+				1302108D2C1EEE01007C6E31 /* RACEventMediator.m */,
+				1302108F2C1F0D0A007C6E31 /* RACCellModel.h */,
+				130210902C1F0D0A007C6E31 /* RACCellModel.m */,
+				130210922C1F0D1D007C6E31 /* RACCellView.h */,
+				130210932C1F0D1D007C6E31 /* RACCellView.m */,
+			);
+			path = "RAC事件";
+			sourceTree = "<group>";
+		};
+		130211C02C1F3A72007C6E31 /* 虚线 */ = {
+			isa = PBXGroup;
+			children = (
+				130211C12C1F3A83007C6E31 /* DashedView.h */,
+				130211C22C1F3A83007C6E31 /* DashedView.m */,
+			);
+			path = "虚线";
+			sourceTree = "<group>";
+		};
+		80137BA671B2086ED29B0317 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CB46D4EA96F33140DA3ED9D /* Pods-VMProjectTool.debug.xcconfig */,
+				66BB92EC105921F00D0C8013 /* Pods-VMProjectTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB3E2860131503A444F708A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2F31B33ACFE7169DFB46533 /* Pods_VMProjectTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -244,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1302104E2C0DFDC8007C6E31 /* Build configuration list for PBXNativeTarget "VMProjectTool" */;
 			buildPhases = (
+				4CF933651B062F2E770578E7 /* [CP] Check Pods Manifest.lock */,
 				1302101B2C0DFDC7007C6E31 /* Sources */,
 				1302101C2C0DFDC7007C6E31 /* Frameworks */,
 				1302101D2C0DFDC7007C6E31 /* Resources */,
+				CD8FCD9EEB984256CDAAD430 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -362,18 +424,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CF933651B062F2E770578E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VMProjectTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8FCD9EEB984256CDAAD430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VMProjectTool/Pods-VMProjectTool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VMProjectTool/Pods-VMProjectTool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VMProjectTool/Pods-VMProjectTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1302101B2C0DFDC7007C6E31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1302108E2C1EEE01007C6E31 /* RACEventMediator.m in Sources */,
+				130211C32C1F3A83007C6E31 /* DashedView.m in Sources */,
 				1302106C2C0DFE5D007C6E31 /* UILabel+YXInit.m in Sources */,
 				1302102A2C0DFDC7007C6E31 /* ViewController.m in Sources */,
+				130210912C1F0D0A007C6E31 /* RACCellModel.m in Sources */,
 				130210682C0DFE5D007C6E31 /* NSDate+Escort.m in Sources */,
 				1302106F2C0DFE5D007C6E31 /* UIImage+Extension.m in Sources */,
 				130210692C0DFE5D007C6E31 /* UIButton+SHExtension.m in Sources */,
 				1302106B2C0DFE5D007C6E31 /* UIColor+Extension.m in Sources */,
 				130210832C10A6BE007C6E31 /* ButtonLayoutDemo.m in Sources */,
+				130210942C1F0D1D007C6E31 /* RACCellView.m in Sources */,
 				130210722C109852007C6E31 /* UIFont+Category.m in Sources */,
 				130210242C0DFDC7007C6E31 /* AppDelegate.m in Sources */,
 				130210352C0DFDC8007C6E31 /* main.m in Sources */,
@@ -557,6 +665,7 @@
 		};
 		1302104F2C0DFDC8007C6E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB46D4EA96F33140DA3ED9D /* Pods-VMProjectTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -584,6 +693,7 @@
 		};
 		130210502C0DFDC8007C6E31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BB92EC105921F00D0C8013 /* Pods-VMProjectTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
